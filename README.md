@@ -59,3 +59,24 @@ After the Customer-1 virtual machine is ready to go, we open Remote Desktop Conn
 Once the previous step of pinging the Private Ip address for the domain controller has been done, we then go back and open Remote Desktop again and this time we are logging in with the domain controller virtual machine by typing our username and password and also typing in the public Ip address to log in. Once are logged in inside Remote Desktop Connection, we then go to "Windown Defender Firewall with Advanced Security". Once we do that, we then click "Inbound Rules" and under "Protocols", we then find ICMPv4 and right click on two of them and click the "Enable Rule" option. Once we do all of this, there will be connectivity happening between the client and domain controller virtual machine.
 </p>
 <br />
+
+<p>
+</p>
+<p>
+
+![image](https://github.com/amoh2487/configure-ad/assets/148664179/81e8d2c5-aa46-4300-9ca3-e239c4d0f6e5)
+
+
+Once the previous step is done, we go back to the domain controller Remote Desktop and open Server Manager. Once we are there, we click under "Add Roles and features" and then we click next on all the steps so that they are in their default features, until we get to the "Server Roles" page. Once we are there, we check the box that says "Active Directory Domain Services" and click next until the "Results" page and click the "Install" button. The reason for why installed active directory domain services in the first place is because it lets us set up our domain such as our domain name in order to manage the users and computers and allow system administrators to organize the data into logical hierarchies.
+</p>
+<br />
+
+<p>
+</p>
+<p>
+
+![image](https://github.com/amoh2487/configure-ad/assets/148664179/cd245c70-fa1e-4797-b9d5-9eaa39874334)
+
+
+After the Active Directory Domain Services software has been installed, we then go ahead and create our domain such our root domain name, setup pur password for the new domain, and we click next on the pages to be on their default mode until we get to the results page. Our device then will automatically restart which will take a couple of minutes. Once our device has restarted successfully and everything looks good, we then login with our domain credentials, and at this point, our domain has been sucescessfully created which in return will allow us to create other materials such as organizational units and so on.
+
