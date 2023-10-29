@@ -45,14 +45,17 @@ As always, whenever we want to create a new project for IT, we have to create vi
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/5629cb31-0fbc-4340-91e3-d0a15637a873)
 
   
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the Customer-1 virtual machine is ready to go, we open Remote Desktop Connection and login with our credentials we made for the virtual machine and open the remote desktop by copying and pasting whatever the public IP address is for the Customer-1 virtual machine. Once we are logged in, we open the command line and type "ping -t" followed by copying pasting the private IP address for the domain controller virtual machine.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
+![image](https://github.com/amoh2487/configure-ad/assets/148664179/a28f4f0f-324e-458c-8c81-f94c94d9da7a)
+
+  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
