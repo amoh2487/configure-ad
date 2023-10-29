@@ -56,6 +56,6 @@ After the Customer-1 virtual machine is ready to go, we open Remote Desktop Conn
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/a28f4f0f-324e-458c-8c81-f94c94d9da7a)
 
   
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the previous step of pinging the Private Ip address for the domain controller has been done, we then go back and open Remote Desktop again and this time we are logging in with the domain controller virtual machine by typing our username and password and also typing in the public Ip address to log in. Once are logged in inside Remote Desktop Connection, we then go to "Windown Defender Firewall with Advanced Security". Once we do that, we then click "Inbound Rules" and under "Protocols", we then find ICMPv4 and right click on two of them and click the "Enable Rule" option. Once we do all of this, there will be connectivity happening between the client and domain controller virtual machine.
 </p>
 <br />
