@@ -8,6 +8,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Environments and Technologies Used</h2>
 
+- Microsoft Azure (Resource Groups/Compute)
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
