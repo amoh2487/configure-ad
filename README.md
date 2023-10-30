@@ -81,7 +81,18 @@ Once the previous step is done, we go back to the domain controller Remote Deskt
 
 After the Active Directory Domain Services software has been installed, we then go ahead and create our domain such our root domain name, setup pur password for the new domain, and we click next on the pages to be on their default mode until we get to the results page. Our device then will automatically restart which will take a couple of minutes. Once our device has restarted successfully and everything looks good, we then login with our domain credentials, and at this point, our domain has been sucescessfully created which in return will allow us to create other materials such as organizational units and so on.
 </p>
-<br />
+</p>
+
+<p>
+</p>
+<p>
+
+![image](https://github.com/amoh2487/configure-ad/assets/148664179/54d4969c-5005-48b4-a7fd-a7663963b796)
+
+
+Once the previous step is done and successfull, we then login to Customer-1 virtual machine, but this time we login with the credentials we had created for our domain name user before. Once that is completed, we then go to the start button and search "PowerAhell ISE" and be right click on the "Run as Administrator" option. Once that is done, we go and look for the script that we created before the start of the Active Directory Project and copy and paste it into PowerShell ISE. We know that our script has been successfull here because it is creating 10,000 accounts like we said in the script, and I say this because if our script wasn't successfull, it would say in red, "New-Aduser : Access is denied". This means that there was something wrong when we created the script in the firstplace.
+</p>
+</p>
 
 <p>
 </p>
@@ -90,5 +101,15 @@ After the Active Directory Domain Services software has been installed, we then 
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/46d0ee21-5ad2-4129-9804-afd9ffdda89b)
 
 
-Once the previous step is done and successfull, we then login to Customer-1 virtual machine, but this time we login with the credentials we had created for our domain name user before. Once that is completed, we then go to the start button and search "PowerAhell ISE" and be right click on the "Run as Administrator" option. Once that is done, we go and look for the script that we created before the start of the Active Directory Project and copy and paste it into PowerShell ISE. We know that our script has been successfull here because it is creating 10,000 accounts like we said in the script, and I say this because if our script wasn't successfull, it would say in red, "New-Aduser : Access is denied". This means that there was something wrong when we created the script in the firstplace.
+we Then created this.
+</p>
+</p>
 
+<p>
+</p>
+<p>
+
+![image](https://github.com/amoh2487/configure-ad/assets/148664179/834b6a57-6a3f-4658-91f5-62ef1f680a44)
+
+
+Then this.
