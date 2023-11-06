@@ -20,11 +20,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
+- Create a Resource Group in Microsoft Azure
+- Craete a script where we create accounts to ultimately login to Customer #1 virtual machines from one of the accounts created from our script
+- Create two virtual machines from Microsoft Azure; one for our domain controller and the other from our customer #1
+- Open Remote Desktop Connection and connect it to our customer #1 virtual machine and opening the command line and typing "ping -t" followed by copying pasting the private IP address for the domain controller virtual machine
+- Connect the domain controller virtual machine to Remote Desktop Connections and once there, we click on "Windown Defender Firewall with Advanced Security" and try to find 
+ICMPv4 which will allow us to connect between the two virtual machine that we created
+- Go back to Domain Controller virtual machine desktop and open Server Manager to set up our domain such as our domain name in order to manage the users and computers and allow system administrators to organize the data into logical hierarchies
+- create our domain such our root domain name, setup pur password for the new domain which in return will allow us to create other materials such as organizational units and so on
+- Open Powershell ISE as an administrator from the Customer #1 virtual machine and copy and paste our script in order to create our user to allow access to Active directory by making sure all the accounts being created are in green color for accuracy
+- Try to login to Customer #1 virtual machine by logging in with one of our users from Powershell ISE that we created earlier
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
