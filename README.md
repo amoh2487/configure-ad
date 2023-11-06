@@ -101,7 +101,7 @@ Once the previous step is done and successfull, we then login to Customer-1 virt
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/46d0ee21-5ad2-4129-9804-afd9ffdda89b)
 
 
-Once we know for sure that the last step has been done successfully, then we should next be able to see our accounts being created from the script in the form of a green color. This means that we should be able to see all of the 10,000 accounts being created that we made from the script and the accounts don't follow a specific name since we didn't make actual names for each account that is being created such as "James" or "Connor" but instead made raondom names that are weird like "Neren" for isntance.
+Once we know for sure that the last step has been done successfully, then we should next be able to see our accounts being created from the script in the form of a green color. This means that we should be able to see all of the 10,000 accounts being created that we made from the script and the accounts don't follow a specific name since we didn't make actual names for each account that is being created such as "James" or "Connor" but instead made raondom names that are weird like "Neren" for instance.
 </p>
 </p>
 
