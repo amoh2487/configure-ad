@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Connect the domain controller virtual machine to Remote Desktop Connections and once there, we click on "Windown Defender Firewall with Advanced Security" and try to find 
 ICMPv4 which will allow us to connect between the two virtual machine that we created
 - Go back to Domain Controller virtual machine desktop and open Server Manager to set up our domain such as our domain name in order to manage the users and computers and allow system administrators to organize the data into logical hierarchies
-- create our domain such our root domain name, setup pur password for the new domain which in return will allow us to create other materials such as organizational units and so on
+- create our domain such our root domain name, setup our password for the new domain which in return will allow us to create other materials such as organizational units and so on
 - Open Powershell ISE as an administrator from the Customer #1 virtual machine and copy and paste our script in order to create our user to allow access to Active directory by making sure all the accounts being created are in green color for accuracy
 - Try to login to Customer #1 virtual machine by logging in with one of our users from Powershell ISE that we created earlier
 <h2>Deployment and Configuration Steps</h2>
