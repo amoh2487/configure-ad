@@ -112,4 +112,4 @@ Once we know for sure that the last step has been done successfully, then we sho
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/834b6a57-6a3f-4658-91f5-62ef1f680a44)
 
 
-After all our 10,000 accounts have been created on Powershell ISE, if we go back to the "Employees" folder that we made earlier, all of our employees should be there as users so they have access to our Active Directory. Also, if we click on any user, we should be able to login to our Client 1 virtual machine for
+After all our 10,000 accounts have been created on Powershell ISE, if we go back to the "Employees" folder that we made earlier, all of our employees should be there as users so they have access to our Active Directory. Also, if we click on any user, we should be able to login to our Client 1 virtual machine by closing Remore Desktop Connection and opening it again, but this time we will login with one of our user's credentials such as "Kavo.Wuk" for the username and password.
