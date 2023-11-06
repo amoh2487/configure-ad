@@ -90,7 +90,7 @@ After the Active Directory Domain Services software has been installed, we then 
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/79549ff9-fa22-4c33-9ea5-b14f92f307b2)
 
 
-Once the previous step is done and successfull, we then login to Customer-1 virtual machine, but this time we login with the credentials we had created for our domain name user before. Once that is completed, we then go to the start button and search "PowerAhell ISE" and be right click on the "Run as Administrator" option. Once that is done, we go and look for the script that we created before the start of the Active Directory Project and copy and paste it into PowerShell ISE. We know that our script has been successfull here because it is creating 10,000 accounts like we said in the script, and I say this because if our script wasn't successfull, it would say in red, "New-Aduser : Access is denied". This means that there was something wrong when we created the script in the firstplace.
+Once the previous step is done and successfull, we then login to Customer-1 virtual machine, but this time we login with the credentials we had created for our domain name user before. Once that is completed, we then go to the start button and search "PowerShell ISE" and be right click on the "Run as Administrator" option. Once that is done, we go and look for the script that we created before the start of the Active Directory Project and copy and paste it into PowerShell ISE. We know that our script has been successfull here because it is creating 10,000 accounts like we said in the script, and I say this because if our script wasn't successfull, it would say in red, "New-Aduser : Access is denied". This means that there was something wrong when we created the script in the firstplace.
 </p>
 </p>
 
@@ -112,4 +112,4 @@ Once we know for sure that the last step has been done successfully, then we sho
 ![image](https://github.com/amoh2487/configure-ad/assets/148664179/834b6a57-6a3f-4658-91f5-62ef1f680a44)
 
 
-Then this.
+After all our 10,000 accounts have been created on Powershell ISE, if we go back to the "Employees" folder that we made earlier, all of our employees should be there as users so they have access to our Active Directory. Also, if we click on any user, we should be able to login to our Client 1 virtual machine for
